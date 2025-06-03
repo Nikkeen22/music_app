@@ -252,7 +252,7 @@ export default function RapArtistPortfolio() {
       </section>
 
       {/* CONTENT */}
-      <main className="flex-1 p-6 w-[95%] mx-auto space-y-6">
+      <main className="flex-1 p-6 w-[100%] mx-auto space-y-6">
         {/* ALBUMS */}
         {view === "albums" && (
           <AlbumsView

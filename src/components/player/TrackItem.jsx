@@ -19,14 +19,14 @@ export default React.memo(
           </button>
           <span className="text-white font-medium truncate">{track.title}</span>
         </div>
-        <a
-          href={track.url}
-          download
-          className="flex items-center space-x-1 bg-primary text-black px-3 py-1 rounded hover:bg-primary/80 transition text-sm"
-        >
-          <Download size={16} />
-          <span>Скачати</span>
-        </a>
+            <a
+        href={track.url}
+        download
+        className="flex items-center space-x-1 bg-primary text-black px-3 py-1 rounded hover:bg-primary/80 transition text-sm"
+      >
+        <Download size={16} />
+        <span className="hidden sm:inline">Скачати</span>  {/* приховаємо текст на мобілках */}
+      </a>
       </div>
     );
   },

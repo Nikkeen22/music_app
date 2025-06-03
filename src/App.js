@@ -60,10 +60,13 @@ export default function RapArtistPortfolio() {
   const videos = useMemo(
     () => [
       "https://www.youtube.com/embed/sH5mthDL9x8?",
-      "https://www.youtube.com/embed/sH5mthDL9x8?",
+      "https://www.youtube.com/embed/5mYZeHga52w?",
+      "https://www.youtube.com/embed/oin1dzyf8Ic?",
+      "https://www.youtube.com/embed/dby-L59aTNg?",
     ],
     []
   );
+
 
 
   const allTracks = useMemo(

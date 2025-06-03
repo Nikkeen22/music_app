@@ -25,7 +25,7 @@ export default React.memo(
         className="flex items-center space-x-1 bg-primary text-black px-3 py-1 rounded hover:bg-primary/80 transition text-sm"
       >
         <Download size={16} />
-        <span className="hidden sm:inline">Скачати</span>  {/* приховаємо текст на мобілках */}
+        <span className="hidden sm:inline">Скачати</span>
       </a>
       </div>
     );

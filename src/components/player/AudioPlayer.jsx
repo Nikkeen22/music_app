@@ -63,17 +63,7 @@ export default function AudioPlayer({
         </div>
       </div>
 
-      {/* Скачати */}
-      {currentTrack?.url && (
-        <a
-          href={currentTrack.url}
-          download
-          className="flex items-center space-x-1 bg-primary text-black px-3 py-1 rounded hover:bg-primary/80 transition text-sm"
-        >
-          <Download size={16} />
-          <span>Скачати</span>
-        </a>
-      )}
+      
 
       {/* <audio> сам по собі ховається – ми ним керуємо через audioRef */}
       <audio

@@ -30,7 +30,7 @@ export default function RapArtistPortfolio() {
         tracks: [
           { title: "Мої батьки", url: "/tracks/Мої батьки.mp3" },
           { title: "В прірву за сонцем", url: "/tracks/В прірву за сонцем.mp3" },
-          { title: "Що у тебе на душі", url: "/tracks/Що у тебе на душі.mp3" },
+          { title: "Що у тебе на душі", url: "/tracks/Що у тебе на душі.m4a" },
           
         ],
       },
@@ -38,7 +38,7 @@ export default function RapArtistPortfolio() {
         title: "Наречена - Рок версія",
         year: 2024,
         tracks: [
-          { title: "Наречена - Рок версія", url: "/tracks/Наречена - Рок версія.mp3" },
+          { title: "Наречена - Рок версія", url: "/tracks/Наречена - Рок версія.m4a" },
           
         ],
       },
